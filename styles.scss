@@ -12,6 +12,7 @@ nav {
     background-color: rgb(15, 15, 126);
     color: white;
     ul {
+        font-size: 2em;
         text-align: left;
         padding: 1em;
         li {
@@ -23,9 +24,10 @@ nav {
 
 #logo {
     float: left;
-    width: 40px;
-    height: 40px;
-    padding: 0 10px;
+    width: 70px;
+    height: 70px;
+    padding: 10px 10px;
+    margin-right: 50px;
 }
 
 img {
@@ -46,7 +48,7 @@ h1 {
 
 p {
     position: fixed;
-    top: 32%;
+    top: 38%;
     left: 15%;
     color: rgb(236, 181, 117);
     font-size: 4em;
@@ -64,8 +66,25 @@ cite {
 }
 
 footer {
+    position: absolute;
+    bottom: auto;
     background-color: black;
     color: white;
-    padding: 2em;
+    padding: 4em;
     font-size: 2em;
+}
+
+#footbutton {
+    position: absolute;
+    top: 3em;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(156, 18, 18);
+    color: white;
+    font: 2.4em;
+    border-radius: 15px;
+    &:hover {
+        background-color: red;
+        transform: scale(1.5);
+    }
 }
