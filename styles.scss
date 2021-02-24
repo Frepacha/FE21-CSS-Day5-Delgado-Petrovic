@@ -44,16 +44,9 @@ img {
     object-fit: cover;
 }
 
-.content {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-}
-
 h1 {
     position: fixed;
-    top: 20%;
+    top: 20vh;
     left: 10%;
     color: rgb(235, 205, 72);
     font-size: 12vw;
@@ -62,7 +55,7 @@ h1 {
 
 h2 {
     position: fixed;
-    top: 30%;
+    top: 40vh;
     left: 10%;
     color: rgb(236, 181, 117);
     font-size: 6vw;
@@ -71,8 +64,9 @@ h2 {
 
 cite {
     position: fixed;
-    top: 50%;
-    left: 15%;
+    align-items: center;
+    top: 70vh;
+    left: 5vw;
     text-align: center;
     color: rgb(240, 227, 50);
     font-size: 6vw;
