@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(15, 15, 126);
+    color: white;
+    ul {
+        text-align: left;
+        padding: 1em;
+        li {
+            display: inline;
+            padding-right: 1.5em;
+        }
+    }
+}
